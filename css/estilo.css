@@ -3,57 +3,124 @@ body{
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+a:link, a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.menu,
+.edicao,
+.introducao,
+.principal,
+.img-principal,
+.posts-secundarios,
+.links,
+.depoimentos,
+.fotos,
+.paragrafo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .menu{
     height: 200px;
+    background-color: rgb(2, 202, 202) ;
+    width: 50%;
+
 }
 
 .logo{
     position: relative;
-    left: 350px;
-    top: 80px;
-    width: 100px;
+    left: 30px;
+    top: 30px;
+    width: 150px;
 }
 
 .cb{
-    float: right;
-    margin-right: 250px;
-    margin-top: 130px;
+    position: relative;
+    left: 45%;
+    transform: translateX(-50%);
+    top: 20px;
+    font-size: 20px;    
+    width: 200px;
+}
+
+.cbb{
+    position: relative;
+    left: 68%;
+    bottom: 20px;
+    margin-right: 30px;
+    width: 200px;
     font-size: 20px;
 }
 
-.edicao{
+.edicao, 
+.introducao{
+    width: 50%;
     margin-top: 50px;
     text-align: center;
+    background-color: aqua;
 }
 
-.links{
-    margin-right: 30px;
-    text-align: center;
+.introducao{
+    text-align: justify;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.principal{
+    background-color: aquamarine;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
 }
 
 .img-principal{
     width: 500px;
     max-height: 30%;
-    margin-left: 100px;
-    margin-top: 10px;
-    text-align: center;
-    position: relative;
-    left: 40%;
-    transform: translateX(-50%);
 }
 
 .h3-principal{
     text-align: center;
 }
 
-.posts{
-    position: relative;
-    left: 35%;
-    transform: translateX(-50%);
+.posts-secundarios{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: lightslategray;
+    width: 50%;
+}
+
+.links{
+    margin-top: 10px;
+    width: 50%;
+    background-color: blue;
+    padding: 10px;
+}
+
+.logos{
+    margin-left: 50px;
+    width: 200px;
+    display: inline-block;
+}
+
+.redes-sociais{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .img{
     width: 200px;
+	height: 200px;
+    object-fit: cover;
 }
 
 .h3{
@@ -64,20 +131,10 @@ body{
 .secundario{
     margin: 10px;
     display: inline-block;
-    margin-left: 0px;
-    margin-bottom: 5px;
 }
 
 .p2{
     margin-left: 10px;
-}
-
-.depoimentos{
-    width: 600px;
-    height: 500px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .titulo-depoimentos{
@@ -108,18 +165,37 @@ body{
 .paragrafo{
     text-align: justify;
     padding: 0px 100px;
-    width: 600px;
+    text-indent: 1.5em;
+}
+
+.p{
+    width: 50%;    
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    background-color: aquamarine;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.depoimentos{
+    background-color: cornflowerblue;
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0px;
 }
 
 .paragrafo-post{
     text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .fotos{
     text-align: center;
+    background-color: blueviolet;
+    width: 50%;
+    padding: 10px;
 }
 
 ul li{
@@ -128,4 +204,15 @@ ul li{
 
 .lista{
     text-align: center;
+}
+
+.ll img{
+    width: 100px;
+}
+
+.llf img{
+    width: 50px;
+    position: relative;
+    left: 43%;
+    top: 60px
 }
