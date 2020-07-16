@@ -22,69 +22,68 @@ a:hover{
 .depoimentos,
 .fotos,
 .paragrafo{
-    position: relative;
     left: 50%;
+    position: relative;
     transform: translateX(-50%);
 }
 
 .menu{
+    background-color: rgb(255, 184, 184);
     height: 200px;
-    background-color: rgb(2, 202, 202) ;
     width: 50%;
 
 }
 
 .logo{
-    position: relative;
+    
     left: 30px;
+    position: relative;
     top: 30px;
     width: 150px;
 }
 
 .cb{
-    position: relative;
+    font-size: 20px;
     left: 45%;
+    position: relative;
     transform: translateX(-50%);
-    top: 20px;
-    font-size: 20px;    
+    top: 20px;    
     width: 200px;
 }
 
 .cbb{
-    position: relative;
-    left: 68%;
     bottom: 20px;
-    margin-right: 30px;
-    width: 200px;
     font-size: 20px;
+    left: 68%;
+    margin-right: 30px;
+    position: relative;
+    width: 200px;
 }
 
 .edicao, 
 .introducao{
-    width: 50%;
+    background-color: rgb(255, 242, 167);
     margin-top: 50px;
     text-align: center;
-    background-color: aqua;
+    width: 50%;
 }
 
 .introducao{
-    text-align: justify;
-    padding: 5px;
     margin-top: 0px;
+    padding: 5px;
+    text-align: justify;
 }
 
 .principal{
-    background-color: aquamarine;
+    background-color: rgb(167, 255, 159);
     width: 50%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     padding: 10px;
+    margin: 10px;
 }
 
 .img-principal{
-    width: 500px;
     max-height: 30%;
+    width: 500px;
 }
 
 .h3-principal{
@@ -92,35 +91,35 @@ a:hover{
 }
 
 .posts-secundarios{
-    padding: 10px;
+    background-color: rgb(172, 255, 230);
     margin-top: 10px;
-    background-color: lightslategray;
+    padding: 10px;
     width: 50%;
 }
 
 .links{
+    background-color: rgb(181, 181, 255);
     margin-top: 10px;
-    width: 50%;
-    background-color: blue;
     padding: 10px;
+    width: 50%;
 }
 
 .logos{
+    display: inline-block;
     margin-left: 50px;
     width: 200px;
-    display: inline-block;
 }
 
 .redes-sociais{
-    text-align: center;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 .img{
-    width: 200px;
 	height: 200px;
     object-fit: cover;
+    width: 200px;
 }
 
 .h3{
@@ -129,8 +128,8 @@ a:hover{
 }
 
 .secundario{
-    margin: 10px;
     display: inline-block;
+    margin: 10px;
 }
 
 .p2{
@@ -138,10 +137,10 @@ a:hover{
 }
 
 .titulo-depoimentos{
-    text-align: center;
-    padding-top: 10px;
     font-weight: bold;
     font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 .entidade,
@@ -158,44 +157,48 @@ a:hover{
 }
 
 .perguntas{
-    text-align: center;
     font-weight: bold;
+    text-align: center;
 }
 
 .paragrafo{
-    text-align: justify;
     padding: 0px 100px;
+    text-align: justify;
     text-indent: 1.5em;
 }
 
 .p{
-    width: 50%;    
-    position: relative;
+    background-color: rgb(175, 187, 255);
     left: 50%;
-    transform: translateX(-50%);
-    background-color: aquamarine;
-    padding: 10px;
     margin: 10px 0px;
+    padding: 10px;
+    position: relative;
+    transform: translateX(-50%);
+    width: 50%;
+}
+
+.principal .p{
+    background-color: transparent;
 }
 
 .depoimentos{
-    background-color: cornflowerblue;
-    width: 50%;
-    padding: 10px;
+    background-color: rgb(201, 159, 255);
     margin: 10px 0px;
+    padding: 10px;
+    width: 50%;
 }
 
 .paragrafo-post{
-    text-align: center;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 .fotos{
-    text-align: center;
-    background-color: blueviolet;
-    width: 50%;
+    background-color: rgb(255, 145, 172);
     padding: 10px;
+    text-align: center;
+    width: 50%;
 }
 
 ul li{
@@ -211,8 +214,12 @@ ul li{
 }
 
 .llf img{
-    width: 50px;
     position: relative;
     left: 43%;
-    top: 60px
+    top: 60px;
+    width: 50px;
+}
+
+.principal .p{
+    text-align: center;
 }
