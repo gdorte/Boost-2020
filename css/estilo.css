@@ -20,7 +20,6 @@ a:hover{
 .posts-secundarios,
 .links,
 .depoimentos,
-.fotos,
 .paragrafo{
     left: 50%;
     position: relative;
@@ -28,7 +27,7 @@ a:hover{
 }
 
 .menu{
-    background-color: rgb(255, 184, 184);
+    background-color: #D8A8FF;
     height: 200px;
     width: 50%;
 
@@ -62,10 +61,11 @@ a:hover{
 
 .edicao, 
 .introducao{
-    background-color: rgb(255, 242, 167);
+    background-color: #AF99E8;
     margin-top: 50px;
     text-align: center;
     width: 50%;
+    padding: 10px;
 }
 
 .introducao{
@@ -75,7 +75,7 @@ a:hover{
 }
 
 .principal{
-    background-color: rgb(167, 255, 159);
+    background-color: #AF99E8;
     width: 50%;
     padding: 10px;
     margin: 10px;
@@ -91,14 +91,14 @@ a:hover{
 }
 
 .posts-secundarios{
-    background-color: rgb(172, 255, 230);
+    background-color: #B5B5FF;
     margin-top: 10px;
     padding: 10px;
     width: 50%;
 }
 
 .links{
-    background-color: rgb(181, 181, 255);
+    background-color: #99AEE8;
     margin-top: 10px;
     padding: 10px;
     width: 50%;
@@ -168,7 +168,7 @@ a:hover{
 }
 
 .p{
-    background-color: rgb(175, 187, 255);
+    background-color: #A8D6FF;
     left: 50%;
     margin: 10px 0px;
     padding: 10px;
@@ -194,13 +194,6 @@ a:hover{
     text-align: center;
 }
 
-.fotos{
-    background-color: rgb(255, 145, 172);
-    padding: 10px;
-    text-align: center;
-    width: 50%;
-}
-
 ul li{
     list-style: none;
 }
@@ -222,4 +215,8 @@ ul li{
 
 .principal .p{
     text-align: center;
+}
+
+p{
+    text-align: justify;
 }
